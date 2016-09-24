@@ -1,0 +1,39 @@
+#pragma once
+
+#include <stdio.h>
+//#include <tchar.h> //windows dependency
+#include <string>
+#include <algorithm>
+#include <chrono>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <stdlib.h>
+//#include <direct.h> //windows dependency
+#include "opencv2/core/utility.hpp"
+#include "opencv2/cudaarithm.hpp"
+#include "opencv2/cudabgsegm.hpp"
+#include "opencv2/cudacodec.hpp"
+#include "opencv2/cudafeatures2d.hpp"
+#include "opencv2/cudafilters.hpp"
+#include "opencv2/cudaimgproc.hpp"
+#include "opencv2/cudalegacy.hpp"
+#include "opencv2/cudaobjdetect.hpp"
+#include "opencv2/cudaoptflow.hpp"
+#include "opencv2/cudastereo.hpp"
+#include "opencv2/cudawarping.hpp"
+#include "opencv2/cudalegacy.hpp"
+#include "opencv2/core/core.hpp"
+#include "opencv2/flann/miniflann.hpp"
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/photo/photo.hpp"
+#include "opencv2/video/video.hpp"
+#include "opencv2/features2d/features2d.hpp"
+#include "opencv2/objdetect/objdetect.hpp"
+#include "opencv2/calib3d/calib3d.hpp"
+#include "opencv2/ml/ml.hpp"
+#include "opencv2/highgui/highgui.hpp"
+#include "opencv2/core/core_c.h"
+#include "opencv2/highgui/highgui_c.h"
+#include "opencv2/imgproc/imgproc_c.h"
+#include "opencv2/videoio.hpp"
